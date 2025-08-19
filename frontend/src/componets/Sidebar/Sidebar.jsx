@@ -62,7 +62,7 @@ export default function Sidebar() {
         <div className="p-4">
           <button
             className="flex items-center space-x-2 bg-white shadow-lg text-red-600 px-10 py-4 rounded-full hover:bg-orange-200"
-            onClick={navigate("/blog")}
+            onClick={() => navigate("/blog")}
           >
             <span className="text-xl">+</span>
             <span>NEW POST</span>
